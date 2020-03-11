@@ -312,14 +312,14 @@ class HomeScreenState extends State<HomeScreen> {
                             setState(() {
                               pr.show();
                               fetchUserList();
-                              print("Swipe Right Get New User Details");
+                              print(GlobalFlag.SwipeRight.toString());
                             });
                           },
                           onSwipeRight: () {
                             setState(() {
                               pr.show();
                               fetchUserList();
-                              print("Swipe Left Save Last User Data in SQLite DataBase");
+                              print(GlobalFlag.SwipeLeft.toString());
                               _submitStudent(context, UserFirst, UserLast);
                             });
                           },

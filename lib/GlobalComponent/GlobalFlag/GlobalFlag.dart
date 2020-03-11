@@ -123,4 +123,8 @@ class GlobalFlag {
   static String Wait = 'Please Wait';
   // ignore: non_constant_identifier_names
   static String Emails = 'Email';
+  // ignore: non_constant_identifier_names
+  static String SwipeRight = 'Swipe Right Get New User Details';
+  // ignore: non_constant_identifier_names
+  static String SwipeLeft = 'Swipe Left Save Last User Data in SQLite DataBase';
 }
